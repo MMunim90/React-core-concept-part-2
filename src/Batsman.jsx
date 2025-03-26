@@ -30,8 +30,8 @@ export default function Batsman() {
       <h3>Player: Bangla Bastman</h3>
 
       <p><small>Sixs: {sixes}</small></p>
-      {runs > 50 && <p>You Score: 50</p>}
-      <h1>Score: {runs}</h1>
+      {runs >= 50 && <p>You Score: 50</p>}
+      <h1>Runs: {runs}</h1>
       <button onClick={handleSingle}>Singles</button>
       <button onClick={handleDoubles}>Doubles</button>
       <button onClick={handleFour}>Four</button>
