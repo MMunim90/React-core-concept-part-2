@@ -31,6 +31,7 @@ export default function Batsman() {
 
       <p><small>Sixs: {sixes}</small></p>
       {runs >= 50 && <p>You Score: 50</p>}
+      {runs >= 100 && <p>Congress!!! You made a Century</p>}
       <h1>Runs: {runs}</h1>
       <button onClick={handleSingle}>Singles</button>
       <button onClick={handleDoubles}>Doubles</button>
